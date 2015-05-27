@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Hushdeal
 //
-//  Created by Mayara Coelho on 5/27/15.
-//  Copyright (c) 2015 Mayara Coelho. All rights reserved.
+//  Created by Mateus Pacheco Roza da Cunha on 5/25/15.
+//  Copyright (c) 2015 Mateus Cunha. All rights reserved.
 //
 
 import UIKit
@@ -11,11 +11,20 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    var window: UIWindow? = UIWindow(frame: UIScreen.mainScreen().bounds)
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        var navigationController = UINavigationController(rootViewController: AgeGroupController(nibName: "AgeGroupController", bundle: nil))
+        navigationController.navigationBar.barStyle = UIBarStyle.BlackTranslucent
+        navigationController.navigationBar.barTintColor = UIColor.redColor()
+        navigationController.navigationBar.tintColor = UIColor.whiteColor()
+        
+        self.window?.rootViewController = navigationController
+        
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3D3D4921B15831C005F3123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D4911B15831C005F3123 /* AppDelegate.swift */; };
+		F3D3D4941B15831C005F3123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D4931B15831C005F3123 /* ViewController.swift */; };
+		F3D3D4971B15831C005F3123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D3D4951B15831C005F3123 /* Main.storyboard */; };
+		F3D3D4991B15831C005F3123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D3D4981B15831C005F3123 /* Images.xcassets */; };
+		F3D3D49C1B15831C005F3123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D3D49A1B15831C005F3123 /* LaunchScreen.xib */; };
+		F3D3D4A81B15831C005F3123 /* HushdealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D4A71B15831C005F3123 /* HushdealTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D3D4A21B15831C005F3123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D3D4841B15831C005F3123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D3D48B1B15831C005F3123;
+			remoteInfo = Hushdeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3D3D48C1B15831C005F3123 /* Hushdeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hushdeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D3D4901B15831C005F3123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D3D4911B15831C005F3123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3D3D4931B15831C005F3123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3D3D4961B15831C005F3123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D3D4981B15831C005F3123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3D3D49B1B15831C005F3123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F3D3D4A11B15831C005F3123 /* HushdealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HushdealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D3D4A61B15831C005F3123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D3D4A71B15831C005F3123 /* HushdealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HushdealTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D3D4891B15831C005F3123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D3D49E1B15831C005F3123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3D3D4831B15831C005F3123 = {
+			isa = PBXGroup;
+			children = (
+				F3D3D48E1B15831C005F3123 /* Hushdeal */,
+				F3D3D4A41B15831C005F3123 /* HushdealTests */,
+				F3D3D48D1B15831C005F3123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D3D48D1B15831C005F3123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3D48C1B15831C005F3123 /* Hushdeal.app */,
+				F3D3D4A11B15831C005F3123 /* HushdealTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D3D48E1B15831C005F3123 /* Hushdeal */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3D4911B15831C005F3123 /* AppDelegate.swift */,
+				F3D3D4931B15831C005F3123 /* ViewController.swift */,
+				F3D3D4951B15831C005F3123 /* Main.storyboard */,
+				F3D3D4981B15831C005F3123 /* Images.xcassets */,
+				F3D3D49A1B15831C005F3123 /* LaunchScreen.xib */,
+				F3D3D48F1B15831C005F3123 /* Supporting Files */,
+			);
+			path = Hushdeal;
+			sourceTree = "<group>";
+		};
+		F3D3D48F1B15831C005F3123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3D4901B15831C005F3123 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3D3D4A41B15831C005F3123 /* HushdealTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3D4A71B15831C005F3123 /* HushdealTests.swift */,
+				F3D3D4A51B15831C005F3123 /* Supporting Files */,
+			);
+			path = HushdealTests;
+			sourceTree = "<group>";
+		};
+		F3D3D4A51B15831C005F3123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3D4A61B15831C005F3123 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D3D48B1B15831C005F3123 /* Hushdeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D3D4AB1B15831C005F3123 /* Build configuration list for PBXNativeTarget "Hushdeal" */;
+			buildPhases = (
+				F3D3D4881B15831C005F3123 /* Sources */,
+				F3D3D4891B15831C005F3123 /* Frameworks */,
+				F3D3D48A1B15831C005F3123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hushdeal;
+			productName = Hushdeal;
+			productReference = F3D3D48C1B15831C005F3123 /* Hushdeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3D3D4A01B15831C005F3123 /* HushdealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D3D4AE1B15831C005F3123 /* Build configuration list for PBXNativeTarget "HushdealTests" */;
+			buildPhases = (
+				F3D3D49D1B15831C005F3123 /* Sources */,
+				F3D3D49E1B15831C005F3123 /* Frameworks */,
+				F3D3D49F1B15831C005F3123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D3D4A31B15831C005F3123 /* PBXTargetDependency */,
+			);
+			name = HushdealTests;
+			productName = HushdealTests;
+			productReference = F3D3D4A11B15831C005F3123 /* HushdealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D3D4841B15831C005F3123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mayara Coelho";
+				TargetAttributes = {
+					F3D3D48B1B15831C005F3123 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F3D3D4A01B15831C005F3123 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F3D3D48B1B15831C005F3123;
+					};
+				};
+			};
+			buildConfigurationList = F3D3D4871B15831C005F3123 /* Build configuration list for PBXProject "Hushdeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D3D4831B15831C005F3123;
+			productRefGroup = F3D3D48D1B15831C005F3123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D3D48B1B15831C005F3123 /* Hushdeal */,
+				F3D3D4A01B15831C005F3123 /* HushdealTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D3D48A1B15831C005F3123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3D4971B15831C005F3123 /* Main.storyboard in Resources */,
+				F3D3D49C1B15831C005F3123 /* LaunchScreen.xib in Resources */,
+				F3D3D4991B15831C005F3123 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D3D49F1B15831C005F3123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D3D4881B15831C005F3123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3D4941B15831C005F3123 /* ViewController.swift in Sources */,
+				F3D3D4921B15831C005F3123 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D3D49D1B15831C005F3123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3D4A81B15831C005F3123 /* HushdealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D3D4A31B15831C005F3123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D3D48B1B15831C005F3123 /* Hushdeal */;
+			targetProxy = F3D3D4A21B15831C005F3123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3D3D4951B15831C005F3123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D3D4961B15831C005F3123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D3D49A1B15831C005F3123 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D3D49B1B15831C005F3123 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D3D4A91B15831C005F3123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3D3D4AA1B15831C005F3123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D3D4AC1B15831C005F3123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hushdeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3D3D4AD1B15831C005F3123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hushdeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3D3D4AF1B15831C005F3123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HushdealTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hushdeal.app/Hushdeal";
+			};
+			name = Debug;
+		};
+		F3D3D4B01B15831C005F3123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HushdealTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hushdeal.app/Hushdeal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D3D4871B15831C005F3123 /* Build configuration list for PBXProject "Hushdeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D3D4A91B15831C005F3123 /* Debug */,
+				F3D3D4AA1B15831C005F3123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D3D4AB1B15831C005F3123 /* Build configuration list for PBXNativeTarget "Hushdeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D3D4AC1B15831C005F3123 /* Debug */,
+				F3D3D4AD1B15831C005F3123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3D3D4AE1B15831C005F3123 /* Build configuration list for PBXNativeTarget "HushdealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D3D4AF1B15831C005F3123 /* Debug */,
+				F3D3D4B01B15831C005F3123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D3D4841B15831C005F3123 /* Project object */;
+}

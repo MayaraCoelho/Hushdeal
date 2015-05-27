@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3D3D4921B15831C005F3123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D4911B15831C005F3123 /* AppDelegate.swift */; };
+		060ABE331B164420009EC19A /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE321B164420009EC19A /* ChatRoom.swift */; };
+		060ABE351B16442E009EC19A /* ChatRoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE341B16442E009EC19A /* ChatRoomController.swift */; };
+		060ABE371B164437009EC19A /* ChatRoomController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060ABE361B164437009EC19A /* ChatRoomController.xib */; };
+		060ABE3A1B164440009EC19A /* DAOChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE381B164440009EC19A /* DAOChatRoom.swift */; };
+		060ABE3B1B164440009EC19A /* DAOUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE391B164440009EC19A /* DAOUser.swift */; };
+		060ABE401B164457009EC19A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE3C1B164457009EC19A /* Message.swift */; };
+		060ABE411B164457009EC19A /* MessageBalloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE3D1B164457009EC19A /* MessageBalloon.swift */; };
+		060ABE421B164457009EC19A /* MessagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE3E1B164457009EC19A /* MessagesList.swift */; };
+		060ABE431B164457009EC19A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE3F1B164457009EC19A /* User.swift */; };
+		060ABE451B1644A7009EC19A /* AgeGroupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060ABE441B1644A7009EC19A /* AgeGroupController.xib */; };
+		060ABE471B1644EC009EC19A /* AgeGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE461B1644EC009EC19A /* AgeGroupController.swift */; };
+		060ABE4A1B164505009EC19A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060ABE481B164505009EC19A /* LaunchScreen.xib */; };
+		060ABE4C1B16459C009EC19A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060ABE4B1B16459C009EC19A /* AppDelegate.swift */; };
+		3BC8F900BCDA6839511063AC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 493595EC501E999FAA788CCC /* libPods.a */; };
 		F3D3D4941B15831C005F3123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D4931B15831C005F3123 /* ViewController.swift */; };
-		F3D3D4971B15831C005F3123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D3D4951B15831C005F3123 /* Main.storyboard */; };
 		F3D3D4991B15831C005F3123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D3D4981B15831C005F3123 /* Images.xcassets */; };
-		F3D3D49C1B15831C005F3123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D3D49A1B15831C005F3123 /* LaunchScreen.xib */; };
 		F3D3D4A81B15831C005F3123 /* HushdealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D4A71B15831C005F3123 /* HushdealTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,16 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060ABE321B164420009EC19A /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatRoom.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/ChatRoom.swift; sourceTree = "<group>"; };
+		060ABE341B16442E009EC19A /* ChatRoomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatRoomController.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/ChatRoomController.swift; sourceTree = "<group>"; };
+		060ABE361B164437009EC19A /* ChatRoomController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatRoomController.xib; path = ../../../../Downloads/Hushdeal/Hushdeal/ChatRoomController.xib; sourceTree = "<group>"; };
+		060ABE381B164440009EC19A /* DAOChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DAOChatRoom.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/DAOChatRoom.swift; sourceTree = "<group>"; };
+		060ABE391B164440009EC19A /* DAOUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DAOUser.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/DAOUser.swift; sourceTree = "<group>"; };
+		060ABE3C1B164457009EC19A /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/Message.swift; sourceTree = "<group>"; };
+		060ABE3D1B164457009EC19A /* MessageBalloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageBalloon.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/MessageBalloon.swift; sourceTree = "<group>"; };
+		060ABE3E1B164457009EC19A /* MessagesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesList.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/MessagesList.swift; sourceTree = "<group>"; };
+		060ABE3F1B164457009EC19A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/User.swift; sourceTree = "<group>"; };
+		060ABE441B1644A7009EC19A /* AgeGroupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgeGroupController.xib; path = ../../../../Downloads/Hushdeal/Hushdeal/AgeGroupController.xib; sourceTree = "<group>"; };
+		060ABE461B1644EC009EC19A /* AgeGroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgeGroupController.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/AgeGroupController.swift; sourceTree = "<group>"; };
+		060ABE491B164505009EC19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../../../Downloads/Hushdeal/Hushdeal/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		060ABE4B1B16459C009EC19A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Downloads/Hushdeal/Hushdeal/AppDelegate.swift; sourceTree = "<group>"; };
+		493595EC501E999FAA788CCC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E1432DC94098876DA03984 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F3D3D48C1B15831C005F3123 /* Hushdeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hushdeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D3D4901B15831C005F3123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D3D4911B15831C005F3123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D3D4931B15831C005F3123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3D3D4961B15831C005F3123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3D3D4981B15831C005F3123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F3D3D49B1B15831C005F3123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F3D3D4A11B15831C005F3123 /* HushdealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HushdealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D3D4A61B15831C005F3123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D3D4A71B15831C005F3123 /* HushdealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HushdealTests.swift; sourceTree = "<group>"; };
+		F8676B568200F1E138E9793B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC8F900BCDA6839511063AC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +81,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060ABE4D1B1645B5009EC19A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				060ABE461B1644EC009EC19A /* AgeGroupController.swift */,
+				F3D3D4931B15831C005F3123 /* ViewController.swift */,
+				060ABE341B16442E009EC19A /* ChatRoomController.swift */,
+				060ABE4F1B16464D009EC19A /* View */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		060ABE4E1B16462F009EC19A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				060ABE321B164420009EC19A /* ChatRoom.swift */,
+				060ABE381B164440009EC19A /* DAOChatRoom.swift */,
+				060ABE391B164440009EC19A /* DAOUser.swift */,
+				060ABE3E1B164457009EC19A /* MessagesList.swift */,
+				060ABE3F1B164457009EC19A /* User.swift */,
+				060ABE3C1B164457009EC19A /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		060ABE4F1B16464D009EC19A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				060ABE441B1644A7009EC19A /* AgeGroupController.xib */,
+				060ABE361B164437009EC19A /* ChatRoomController.xib */,
+				060ABE481B164505009EC19A /* LaunchScreen.xib */,
+				060ABE3D1B164457009EC19A /* MessageBalloon.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5440FBF8C2F869456EFF7E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8676B568200F1E138E9793B /* Pods.debug.xcconfig */,
+				96E1432DC94098876DA03984 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56A33A4303F16C40D79DCCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				493595EC501E999FAA788CCC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3D3D4831B15831C005F3123 = {
 			isa = PBXGroup;
 			children = (
 				F3D3D48E1B15831C005F3123 /* Hushdeal */,
 				F3D3D4A41B15831C005F3123 /* HushdealTests */,
 				F3D3D48D1B15831C005F3123 /* Products */,
+				5440FBF8C2F869456EFF7E8D /* Pods */,
+				56A33A4303F16C40D79DCCAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +156,10 @@
 		F3D3D48E1B15831C005F3123 /* Hushdeal */ = {
 			isa = PBXGroup;
 			children = (
-				F3D3D4911B15831C005F3123 /* AppDelegate.swift */,
-				F3D3D4931B15831C005F3123 /* ViewController.swift */,
-				F3D3D4951B15831C005F3123 /* Main.storyboard */,
+				060ABE4B1B16459C009EC19A /* AppDelegate.swift */,
+				060ABE4E1B16462F009EC19A /* Model */,
+				060ABE4D1B1645B5009EC19A /* Controller */,
 				F3D3D4981B15831C005F3123 /* Images.xcassets */,
-				F3D3D49A1B15831C005F3123 /* LaunchScreen.xib */,
 				F3D3D48F1B15831C005F3123 /* Supporting Files */,
 			);
 			path = Hushdeal;
@@ -119,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3D3D4AB1B15831C005F3123 /* Build configuration list for PBXNativeTarget "Hushdeal" */;
 			buildPhases = (
+				84932AAE68C82CB0DD25B241 /* Check Pods Manifest.lock */,
 				F3D3D4881B15831C005F3123 /* Sources */,
 				F3D3D4891B15831C005F3123 /* Frameworks */,
 				F3D3D48A1B15831C005F3123 /* Resources */,
+				9E35B2D6D12BE54BDBC1B9AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,8 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D3D4971B15831C005F3123 /* Main.storyboard in Resources */,
-				F3D3D49C1B15831C005F3123 /* LaunchScreen.xib in Resources */,
+				060ABE4A1B164505009EC19A /* LaunchScreen.xib in Resources */,
+				060ABE451B1644A7009EC19A /* AgeGroupController.xib in Resources */,
+				060ABE371B164437009EC19A /* ChatRoomController.xib in Resources */,
 				F3D3D4991B15831C005F3123 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +288,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84932AAE68C82CB0DD25B241 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E35B2D6D12BE54BDBC1B9AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3D3D4881B15831C005F3123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060ABE4C1B16459C009EC19A /* AppDelegate.swift in Sources */,
+				060ABE351B16442E009EC19A /* ChatRoomController.swift in Sources */,
+				060ABE331B164420009EC19A /* ChatRoom.swift in Sources */,
+				060ABE421B164457009EC19A /* MessagesList.swift in Sources */,
+				060ABE3A1B164440009EC19A /* DAOChatRoom.swift in Sources */,
+				060ABE411B164457009EC19A /* MessageBalloon.swift in Sources */,
+				060ABE471B1644EC009EC19A /* AgeGroupController.swift in Sources */,
 				F3D3D4941B15831C005F3123 /* ViewController.swift in Sources */,
-				F3D3D4921B15831C005F3123 /* AppDelegate.swift in Sources */,
+				060ABE3B1B164440009EC19A /* DAOUser.swift in Sources */,
+				060ABE431B164457009EC19A /* User.swift in Sources */,
+				060ABE401B164457009EC19A /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,18 +359,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3D3D4951B15831C005F3123 /* Main.storyboard */ = {
+		060ABE481B164505009EC19A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3D3D4961B15831C005F3123 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F3D3D49A1B15831C005F3123 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3D3D49B1B15831C005F3123 /* Base */,
+				060ABE491B164505009EC19A /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -340,6 +455,7 @@
 		};
 		F3D3D4AC1B15831C005F3123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8676B568200F1E138E9793B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hushdeal/Info.plist;
@@ -350,6 +466,7 @@
 		};
 		F3D3D4AD1B15831C005F3123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E1432DC94098876DA03984 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hushdeal/Info.plist;
@@ -411,6 +528,7 @@
 				F3D3D4AD1B15831C005F3123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3D3D4AE1B15831C005F3123 /* Build configuration list for PBXNativeTarget "HushdealTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +537,7 @@
 				F3D3D4B01B15831C005F3123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

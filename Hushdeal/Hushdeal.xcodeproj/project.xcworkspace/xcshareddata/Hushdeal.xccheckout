@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2284FFF1-1BB0-4C7C-AC0C-9DCF7F8317D7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Hushdeal</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FA904DF0BAE83FEA6767B23680F3DF185763472C</key>
 		<string>https://github.com/MayaraCoelho/Hushdeal.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Hushdeal/Hushdeal.xcodeproj/project.xcworkspace</string>
+	<string>Hushdeal/Hushdeal.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FA904DF0BAE83FEA6767B23680F3DF185763472C</key>
